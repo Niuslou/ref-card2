@@ -13,5 +13,5 @@ jobs:
       - name: Checkout the App
         uses: actions/checkout@v2
 
-      - name: Hello world
-        run: echo "Hello world"
+      - name: Install dependencies
+        run: npm i
